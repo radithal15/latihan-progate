@@ -1,0 +1,199 @@
+*{
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #404146;
+    height: 60px;
+    margin-top: 8px;
+}
+
+.nav-header h2{
+    font-size: 25px;
+    color: white;
+    float: left;
+    padding-top: 15px;
+    margin-left: 50px;
+    margin-right: 60px;
+    letter-spacing: 10px;
+}
+
+.nav-header a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding-top: 21px;
+    padding-left: 40px;
+    opacity: 0.8;
+}
+
+.top{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.top h2{
+    font-size: 100px;
+    opacity: 0.8;
+    word-spacing: 20px;
+}
+
+.span-top{
+    color: rgb(241, 162, 13);
+}
+
+.top h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.top img{
+    width: 150px;
+    height: 150px;
+}
+
+.top-message {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.top-message h2{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.top-message p{
+    width: 75%;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.projects{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    flex-direction: column;
+}
+
+.heading-project{
+    padding-top: 10px;
+}
+
+.projects .container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project{
+    text-align: center;
+}
+
+.heading-project{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-project{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.item-project::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.item-project img{
+    width: 70%;
+    box-shadow: 3px 3px 3px rgba(182, 181, 181, 0.8);
+}
+
+.project p{
+    padding-top: 10px;
+}
+
+
+.contact{
+    padding-top: 70px;
+    background-color: #e9e3e3;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.detail-contact h2{
+    font-size: 25px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.contact-form1{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 35%;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contact-form2{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 35%;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+button{
+    width: 17%;
+    background-color: rgb(252, 220, 38);
+    border-style: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+footer{
+    height: 110px;
+    background-color: #404146;
+}
+
+.footer-left{
+    color: white;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.footer-right{
+    float: right;
+    padding-right: 5px;
+}
+
+.footer-right li{
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 30px;
+    padding-top: 18px;
+    list-style: none;
+    opacity: 0.8;
+}
+
+span.menu-icon{
+    color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: 8px;
+    width: 25px;
+    padding: 10px 0;
+    display: none;
+}
